@@ -2,7 +2,6 @@ package com.driver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @EnableSwagger2
@@ -10,7 +9,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class ParkPlus {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ParkPlus.class, args);
+		SpringApplication.run(com.driver.ParkPlus.class, args);
 	}
 
 }
